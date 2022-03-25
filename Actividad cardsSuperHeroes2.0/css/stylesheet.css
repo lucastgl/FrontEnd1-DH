@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------------HEADER------------------------------*/
+
+.descuentos {
+  background: linear-gradient(#ba4325, #9f0000);
+  padding-left: 3%;
+  font-weight: bold;
+  color: white;
+}
+
+/*-------------------------MAIN------------------------------*/
+
+.BarraHeroes {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  height: 10vh;
+  background: linear-gradient(#9f0000, black);
+  color: whitesmoke;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.BarraHeroes h1 {
+  margin-left: 3%;
+}
+
+.MARVEL {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 5px;
+}
+
+nav {
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background: linear-gradient(black, #7d094b);
+}
+
+nav ul li {
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.mas {
+  padding: 0 18px;
+  z-index: 10;
+  position: fixed;
+  bottom: 30vh;
+  right: 2vh;
+  border-style: none;
+  border-radius: 50%;
+  background: #9f0000;
+  color: whitesmoke;
+  font-size: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*-------------------------------------------------------*/
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  width: 300px;
+  margin: 80px 30px;
+  background-color: #f3f3f3;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.bannerCarta.ironman {
+  background: url(../img/Taller\ de\ tony.jpg);
+  background-size: cover;
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+  height: 190px;
+  padding: 10px;
+}
+
+.bannerCarta.thor {
+  background: url(../img/Asgard.jpg);
+  background-size: cover;
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+  height: 190px;
+  padding: 10px;
+}
+
+.bannerCarta.cap {
+  background: url(../img/fondoCap.jpg);
+  background-size: cover;
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+  height: 190px;
+  padding: 10px;
+}
+
+.bannerCarta.widow {
+  background: url(../img/fondoNatasha.jpg);
+  background-size: cover;
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+  height: 190px;
+  padding: 10px;
+}
+
+.picprofile {
+  position: absolute;
+  top: calc(190px - (130px / 2));
+  right: calc(50% - (130px / 2));
+  border-radius: 50%;
+  width: 130px;
+}
+
+.hero h4 {
+  font-size: 24px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+.hero button {
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #bb1621;
+  padding: 10px 32px;
+  margin: 20px 0;
+  border-style: none;
+}
+
+/*--------------------------footer------------------------*/
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a70e0e;
+  height: 75px;
+  width: 100%;
+}
+
+.textoFinal {
+  margin: 16px;
+  color: white;
+}
+
+/*--------------------------MEDIA QUERIS------------------------*/
+
+@media (max-width: 1100px) {
+  .hero {
+    width: 35%;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    width: 70%;
+  }
+
+  /* section article.harley {
+    visibility: hidden;
+  } */
+
+  /* footer {
+    flex-direction: column;
+  } */
+
+  /* footer img {
+    margin-top: 10px;
+    position: static;
+  } */
+}

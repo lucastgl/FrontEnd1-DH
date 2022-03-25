@@ -1,0 +1,312 @@
+/* Hoja de estilos para index.html */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*======================Header======================*/
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.topPage {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+}
+
+.topPage p {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-left: 5vh;
+}
+
+.topPage ul {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+  margin-right: 4vh;
+}
+
+.topPage ul li {
+  margin-right: 2vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background-color: #f0a83e;
+  color: white;
+}
+
+nav img {
+  padding-left: 5vw;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+  margin-right: 2vh;
+}
+
+nav ul li a {
+  margin-right: 3vh;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
+/*======================main======================*/
+
+.BANNER {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  height: 80vh;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+}
+
+.bannerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.BANNER h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  background-color: white;
+  padding: 2% 1%;
+  margin-bottom: 2%;
+  border-radius: 7px;
+}
+
+.BANNER h4 {
+  margin-bottom: 2%;
+}
+
+.BANNER a {
+  display: flex;
+  height: 7%;
+  align-items: center;
+  padding: 3px 5px;
+  color: blanchedalmond;
+  background-color: #f0a83e;
+}
+/*--------Header Prductos--------*/
+
+.ProductosHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductosHeader img {
+  height: 15vh;
+  width: 15vh;
+  margin-top: 5vh;
+}
+
+.ProductosHeader h2 {
+  margin: 1.5vh;
+}
+
+.articulosCategorias {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  margin-top: 1.5vh;
+  color: #666666;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/*-----PRODUCTOS-----*/
+
+.PRODUCTOS {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.producto {
+  background-color: #fbfaf6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 10vh 15px;
+}
+
+.producto p {
+  text-align: center;
+}
+
+.price {
+  color: #f0a83e;
+}
+
+/*-----Formulario-----*/
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.formulario h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  background-color: #3c2313;
+  color: rgb(255, 255, 255);
+  border-style: none;
+  height: 5vh;
+  width: 20vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  text-align: center;
+}
+
+.formBotones {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reset {
+  background-color: #8a8787;
+  color: white;
+  border-radius: 20px;
+  height: 4vh;
+  width: 8vw;
+  border-style: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.enviar {
+  background-color: #f0a83e;
+  color: white;
+  border-radius: 20px;
+  height: 4vh;
+  width: 8vw;
+  border-style: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*-----Suscripción-----*/
+
+.suscribete {
+  display: flex;
+  background-color: #f0a83e;
+  color: white;
+  height: 8vh;
+}
+
+.suscribete1 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.suscribete1 img {
+  height: 70%;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+
+.suscribete2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.suscribete2 input {
+  border-radius: 15px;
+  height: 50%;
+  width: 30%;
+  margin: 0 3vh;
+  border-style: none;
+  text-align: center;
+}
+
+.suscribete2 button {
+  height: 50%;
+  margin-right: 10%;
+  padding: 2px 5px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #3c2313;
+  color: rgb(255, 255, 255);
+}
+
+/*======================Footer======================*/
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #3c2313;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 5%;
+}
+
+.contacto img {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 20%;
+  height: 20%;
+}
+
+.logoFooter {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logoFooter img {
+  margin-right: 5vw;
+  height: 20%;
+  width: 35%;
+}
+
+.end {
+  color: #fbfaf6;
+  text-align: center;
+  background-color: #222222;
+}
+
+@media (max-width: 1200px) {
+}

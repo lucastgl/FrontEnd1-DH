@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------------HEADER------------------------------*/
+
+.descuentos {
+  background: #ba4325;
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+/*-------------------------BODY------------------------------*/
+
+.BarraHeroes {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  height: 10vh;
+  background: #9f0000;
+  color: whitesmoke;
+}
+
+.BarraHeroes h1 {
+  margin-left: 3%;
+}
+
+.MARVEL {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 5px;
+}
+
+/*--------------------------main------------------------*/
+
+.cajaFormulario {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-bottom: 90px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+  width: 400px;
+}
+
+h2 {
+  align-self: flex-start;
+  margin: 60px 0 20px 0;
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+}
+
+form input {
+  height: 30px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+form textarea {
+  height: 200px;
+  width: 100%;
+  margin: 20px 0;
+  resize: none;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  margin: 20px 20px;
+  height: 40px;
+  border-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  width: 180px;
+  letter-spacing: 3px;
+  border-radius: 16px;
+}
+
+.reset {
+  background: #888888;
+  color: whitesmoke;
+}
+
+.enviar {
+  background: #da3a3a;
+}
+
+/*--------------------------footer------------------------*/
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a70e0e;
+  height: 75px;
+  width: 100%;
+}
+
+.textoFinal {
+  margin: 16px;
+  color: white;
+}

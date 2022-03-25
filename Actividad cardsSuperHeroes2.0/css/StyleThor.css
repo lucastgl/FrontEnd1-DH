@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------------HEADER------------------------------*/
+
+.descuentos {
+  background: linear-gradient(#ba4325, #9f0000);
+  padding-left: 3%;
+  font-weight: bold;
+  color: white;
+}
+
+/*-------------------------MAIN------------------------------*/
+
+.BarraHeroes {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  height: 10vh;
+  background: linear-gradient(#9f0000, black);
+  color: whitesmoke;
+}
+
+.BarraHeroes h1 {
+  margin-left: 3%;
+}
+
+.marco {
+  background-image: url(../img/Asgard.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil {
+  position: relative;
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  margin: 200px 0;
+  border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -ms-border-radius: 40px 40px 40px 40px;
+  -o-border-radius: 40px 40px 40px 40px;
+}
+
+.fotoPerfil {
+  position: absolute;
+  top: -80px;
+  right: calc(50% - (150px / 2));
+  border-radius: 50%;
+  width: 150px;
+}
+
+.corazon {
+  position: absolute;
+  width: 40px;
+  top: 30px;
+  left: 30px;
+}
+
+.perfil h2 {
+  margin: 100px 0 10px 0;
+}
+
+.perfil p {
+  padding: 0 20px;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.weapon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.weapon img {
+  height: 100px;
+  width: 100px;
+}
+
+.boton {
+  height: 100px;
+}
+
+.perfil button {
+  width: 100%;
+  border-radius: 0 0 40px 40px;
+  color: aliceblue;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(44, 1, 135, 0.9650537634408602) 22%,
+    rgba(16, 136, 212, 1) 37%,
+    rgba(126, 191, 232, 0.14784946236559138) 60%,
+    rgba(255, 255, 255, 0.6209677419354839) 67%
+  );
+  border-style: none;
+  height: 100%;
+}
+
+button {
+  padding-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*--------------------------footer------------------------*/
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a70e0e;
+  height: 75px;
+  width: 100%;
+}
+
+.textoFinal {
+  margin: 16px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .perfil {
+    width: 75%;
+  }
+}
